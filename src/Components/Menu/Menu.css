@@ -1,0 +1,17 @@
+.menu-card {
+    background-color: aqua;
+    width: 300px;
+    height: 200px;
+    background-color: #5E17EB;
+    color: white;
+    border: 1px ridge #F7C7DB;
+}
+
+.link-decoration {
+    text-decoration: none;
+}
+
+.menu-card:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}

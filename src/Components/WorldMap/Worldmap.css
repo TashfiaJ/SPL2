@@ -1,0 +1,31 @@
+.world-map {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDFFFC;
+}
+
+.map-view {
+    width: 1400px;
+    background: rgb(190,227,219);
+    background: radial-gradient(circle, rgba(190,227,219,1) 0%, rgba(14,168,220,1) 45%, rgba(56,174,204,1) 100%);
+}
+
+.tooltip {
+    color: red;
+}
+
+.each-country {
+    border: 3px solid black!important;
+}
+
+.text-country {
+    font-weight: 500;
+}
+
+#country-code {
+    font-weight: 600;
+}

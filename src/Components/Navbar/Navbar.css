@@ -1,0 +1,55 @@
+.card {
+    width: 500px;
+    border: 1px ridge #5E17EB;
+}
+
+.card:hover {
+    background-color: #8653ec;
+    color: wheat;
+    border: 1px ridge #F7C7DB;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.logo:hover {
+    transform: scale(0.8);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn {
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    color: #fff;
+    font-size: 33px;
+    background: #5E17EB;
+    padding: 10px 20px 10px 20px;
+    border: solid #F7C7DB 4px;
+    text-decoration: none;
+    width: 300px;
+    height: 100px;
+  }
+  
+  .btn:hover {
+    background-color: white;
+    border: solid #3a3ea1 4px;
+    text-decoration: none;
+    color: #5E17EB;
+  }
+
+  .login-btn {
+    color: #5E17EB;
+    font-weight: 500;
+    background-color: white;
+    border: none;
+    float: right;
+  }
+
+  .login-btn:hover {
+    background-color: #8653ec;
+    color: wheat;
+    border: 1px solid #F7C7DB;
+    border-radius: 10px;
+  }
+
+  
